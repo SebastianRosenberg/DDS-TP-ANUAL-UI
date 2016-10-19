@@ -1,4 +1,4 @@
-package com.bean.pckg;
+package tpanual.controllers;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.application.FacesMessage.Severity;
@@ -29,7 +29,7 @@ public class LoginBean {
 	public void login() {
 		 String msg = "";
 		 Severity severity = FacesMessage.SEVERITY_INFO;
-		 if (usuario.equals("dds") && contrasenia.equals("dds")) {
+		 if (usuario.equals("grupo4") && contrasenia.equals("grupo4")) {
 			 msg = "Usuario " + usuario + " autorizado";
 		 } else {
 			 	msg = "Usuario no autorizado";
